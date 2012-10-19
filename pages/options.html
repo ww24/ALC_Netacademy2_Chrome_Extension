@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="../scripts/jquery.js"></script>
+        <script type="text/javascript" src="../scripts/options.js"></script>
+		<title>Options</title>
+	</head>
+	<body>
+        <h1 style="text-align: center;">単語道場</h1>
+		<h2 style="text-align: center;">URL 設定(必須)</h2>
+		<dl style="width: 300px;margin: auto;">
+			<dt>学内用 URL(必須)</dt>
+			<dd><input id="url-in" class="required" type="text" style="width: 100%;"></dd>
+			<dt>学外用 URL(任意)</dt>
+			<dd><input id="url-out" type="text" style="width: 100%;"></dd>
+		</dl>
+        <h2 style="text-align: center;">アカウント設定(任意)</h2>
+		<dl style="width: 300px;margin: auto;">
+			<dt>アカウント</dt>
+			<dd><input id="id" type="text" style="width: 100%;"></dd>
+			<dt>パスワード</dt>
+			<dd><input id="pw" type="password" style="width: 100%;"></dd>
+		</dl>
+		<div style="width: 300px;margin: 10px auto;text-align: right;">
+			<input id="save_button" type="button" value="Save">
+		</div>
+		<p id="message" style="text-align: center;color: red;"></p>
+	</body>
+</html>

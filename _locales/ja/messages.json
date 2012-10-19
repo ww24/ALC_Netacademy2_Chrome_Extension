@@ -1,0 +1,14 @@
+{
+  "auto_login_failed": {
+  	"message": "保存しているログイン情報に誤りがあります。"
+  },
+  "start_test_confirm": {
+    "message": "問題を開始しますか？"
+  },
+  "save_account_info": {
+    "message": "保存しました。"
+  },
+  "save_account_failed": {
+    "message": "必須項目を入力してください。"
+  }
+}
