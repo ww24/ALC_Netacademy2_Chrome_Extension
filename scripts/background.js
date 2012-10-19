@@ -11,7 +11,7 @@ chrome.browserAction.onClicked.addListener(function () {
 	var anet2_urls = get_anet2_urls();
 	
 	chrome.tabs.create({
-		url: anet2_urls ? anet2_urls[0] : chrome.extension.getURL("options.html")
+		url: anet2_urls ? anet2_urls[0] : chrome.extension.getURL("pages/options.html")
 	});
 });
 
