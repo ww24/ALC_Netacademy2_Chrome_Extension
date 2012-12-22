@@ -2,29 +2,41 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="options.css">
 		<script type="text/javascript" src="../scripts/jquery.js"></script>
-        <script type="text/javascript" src="../scripts/options.js"></script>
+		<script type="text/javascript" src="../scripts/options.js"></script>
 		<title>Options</title>
 	</head>
 	<body>
-        <h1 style="text-align: center;">単語道場</h1>
-		<h2 style="text-align: center;">URL 設定(必須)</h2>
-		<dl style="width: 300px;margin: auto;">
+		<h1>単語道場</h1>
+		<h2>URL 設定(必須)</h2>
+		<dl>
 			<dt>学内用 URL(必須)</dt>
-			<dd><input id="url-in" class="required" type="text" style="width: 100%;"></dd>
+			<dd><input id="url-in" class="required" type="text"></dd>
 			<dt>学外用 URL(任意)</dt>
-			<dd><input id="url-out" type="text" style="width: 100%;"></dd>
+			<dd><input id="url-out" type="text"></dd>
 		</dl>
-        <h2 style="text-align: center;">アカウント設定(任意)</h2>
-		<dl style="width: 300px;margin: auto;">
+		<h2>アカウント設定(任意)</h2>
+		<dl>
 			<dt>アカウント</dt>
-			<dd><input id="id" type="text" style="width: 100%;"></dd>
+			<dd><input id="id" type="text"></dd>
 			<dt>パスワード</dt>
-			<dd><input id="pw" type="password" style="width: 100%;"></dd>
+			<dd><input id="pw" type="password"></dd>
 		</dl>
-		<div style="width: 300px;margin: 10px auto;text-align: right;">
+		<h2>プライバシー</h2>
+		<dl>
+			<dt>Google Analytics</dt>
+			<dd>
+				<p>
+					当プラグインでは、 Google Analytics を用いてプラグインの利用状況を集計しております。
+					集計情報は、当プラグインの開発のために利用されます。
+				</p>
+				<label><input id="anal" type="checkbox">利用状況の集計を許可する</label>
+			</dd>
+		</dl>
+		<div class="save">
 			<input id="save_button" type="button" value="Save">
+			<p id="message" class="message"></p>
 		</div>
-		<p id="message" style="text-align: center;color: red;"></p>
 	</body>
 </html>

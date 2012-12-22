@@ -14,6 +14,11 @@ e-learning アプリケーション ALC NetAczademy2 の単語道場でキーボ
 * 導入コースへの対応(上記と同様)
 
 ## 更新履歴
+### v0.1.5 - 2012/12/23
+* Fix bugs
+* Add Google Analytics
+* Add opt-out method
+
 ### v0.1.4 - 2012/10/19
 * オプション画面が開かないバグの修正
 

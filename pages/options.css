@@ -1,0 +1,27 @@
+h1, h2 {
+	text-align: center;
+}
+
+dl {
+	width: 300px;
+	margin: auto;
+}
+
+input {
+	width: 100%;
+}
+input[type="checkbox"] {
+	width: auto;
+}
+
+.save {
+	width: 300px;
+	margin: 20px auto;
+	text-align: right;
+}
+
+.message {
+	text-align: center;
+	color: red;
+	display: none;
+}

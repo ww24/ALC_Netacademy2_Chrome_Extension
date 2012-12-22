@@ -1,7 +1,7 @@
 ﻿{
   "manifest_version": 2,
   "name": "ALC Netacademy2 単語道場 拡張(非公式)",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "ALC Netacademy2 の単語道場いつでも簡単に開いて解くことのできる拡張機能",
   "icons": {
     "48": "icons/icon48.png",
@@ -9,7 +9,7 @@
   },
   "default_locale": "ja",
   "background": {
-    "scripts": ["scripts/background.js"],
+    "scripts": ["scripts/anal.js", "scripts/background.js"],
     "persistent": false
   },
   "browser_action": {
@@ -31,5 +31,6 @@
     "tabs",
     "http://*/*",
     "https://*/*"
-  ]
+  ],
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
 }
